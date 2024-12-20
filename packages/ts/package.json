@@ -1,0 +1,28 @@
+{
+  "name": "@flixlix/config-ts",
+  "version": "0.1.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "flixlix",
+    "config",
+    "pnpm",
+    "typescript"
+  ],
+  "description": "Shared typescript config for monorepo (ts) and lib (ts) packages",
+  "author": "Luca Félix <luca@luca-felix.com> (http://github.com/flixlix)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/flixlix/config",
+    "type": "git",
+    "directory": "packages/ts"
+  },
+  "homepage": "https://github.com/flixlix/config#readme",
+  "bugs": "https://github.com/flixlix/config/issues",
+  "main": "tsconfig.json",
+  "peerDependencies": {
+    "@types/node": "^18.11.3",
+    "typescript": "^4.8.4"
+  }
+}

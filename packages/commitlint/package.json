@@ -1,0 +1,30 @@
+{
+  "name": "@flixlix/config-commitlint",
+  "version": "0.2.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "flixlix",
+    "config",
+    "pnpm",
+    "commitlint"
+  ],
+  "description": "Shared commitlint config",
+  "author": "Luca Félix <luca@luca-felix.com> (http://github.com/flixlix)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/flixlix/config",
+    "type": "git",
+    "directory": "packages/commitlint"
+  },
+  "homepage": "https://github.com/flixlix/config#readme",
+  "bugs": "https://github.com/flixlix/config/issues",
+  "main": "index.js",
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.1.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^17.1.2"
+  }
+}

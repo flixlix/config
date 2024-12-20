@@ -1,0 +1,35 @@
+{
+  "name": "@flixlix/config-jest-ts-react",
+  "version": "0.1.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "flixlix",
+    "config",
+    "pnpm",
+    "typescript",
+    "jest",
+    "react"
+  ],
+  "description": "Shared jest config",
+  "author": "Luca Félix <luca@luca-felix.com> (http://github.com/flixlix)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/flixlix/config",
+    "type": "git",
+    "directory": "packages/jest-ts-react"
+  },
+  "homepage": "https://github.com/flixlix/config#readme",
+  "bugs": "https://github.com/flixlix/config/issues",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^29.2.0"
+  },
+  "peerDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "jest": "^29.2.2",
+    "jest-environment-jsdom": "^29.2.2",
+    "ts-jest": "^29.0.3"
+  }
+}

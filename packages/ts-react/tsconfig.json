@@ -1,0 +1,6 @@
+{
+  "extends": "@flixlix/config-ts",
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"]
+  }
+}
